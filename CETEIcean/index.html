@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/tei.css">
+  <script src="js/CETEI.js"></script>
+  <script>
+    let c = new CETEI();
+    let behaviors = {
+      "tei": {
+        "head": function(e) {
+          let level = document.evaluate("count(ancestor::tei-div)", e, null, XPathResult.NUMBER_TYPE, null);
+          let result = document.createElement("h" + (level.numberValue>7 ? 7 : level.numberValue));
+          for (let n of Array.from(e.childNodes)) {
+            result.appendChild(n.cloneNode());
+          }
+          return result;
+        },
+        "lb": ["<br>"],
+        /* Insert a <p> with the content of the <pb>'s @n attribute inside it
+           Add a line above with CSS */
+        "pb": ["<p class=\"break\">$@n</p>"],
+        /* Para acceder a los elementos 
+        del teiHeader: */
+        "teiHeader": null,
+      }
+    };
+    c.addBehaviors(behaviors);
+    c.getHTML5('Hamlet.paralelo.xml', function(data){
+      document.getElementsByTagName('body')[0].appendChild(data);
+    });
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<html>
+<head>
+<link rel="stylesheet" href="hamlet.css">
+</head>
+
+<body>
+
+<!-- AQUÍ va el botón -->
+<div class="apparatus-toggle">
+    <button id="toggleApp">Mostrar aparato crítico</button>
+</div>
+
+<!-- AQUÍ va el contenido TEI transformado / pseudo-TEI -->
+<tei-sp>
+  <tei-speaker>Horatio</tei-speaker>
+  <tei-l>What art thou…</tei-l>
+</tei-sp>
+
+<script src="apparatus.js"></script>
+
+</body>
+</html>
+<script>
+  document.getElementById("toggleApp").addEventListener("click", function() {
+      document.body.classList.toggle("show-apparatus");
+      this.textContent = document.body.classList.contains("show-apparatus")
+          ? "Ocultar aparato crítico"
+          : "Mostrar aparato crítico";
+  });
+</script>
+<tei-app n="1.1.46">
+  
+  <input type="checkbox" id="var1" class="app-toggle">
+  <label for="var1" class="app-bubble">ⓘ</label>
+
+  <tei-lem wit="#Q2">Texto del lem…</tei-lem>
+  <tei-rdg wit="#Q1">Texto del rdg…</tei-rdg>
+
+</tei-app>
+
+</body>
+</html>

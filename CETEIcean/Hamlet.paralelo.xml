@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/nivaca/hamleodd/refs/heads/main/tei_sp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/nivaca/hamleodd/refs/heads/main/tei_sp.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title><persName>Hamlet</persName></title>
+        <author>William Shakespeare</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Creado por Pachx Arteaga
+          <l>para el curso "Herramientas digitales</l>
+          para humanistas" (2025-20)
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>
+          <l>Original en inglés tomado de: <ref target="https://internetshakespeare.uvic.ca/doc/Ham_EM/index.html"/>. </l>
+          Texto en español traducido por Pachx Arteaga.
+        </p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div type="DramatisPersonae">
+        <head>The Persons Represented</head>
+        <castList>
+           <castItem xml:id="francisco">
+          <role>Francisco</role>
+            <roleDesc>Sentinel</roleDesc>
+        </castItem>
+        <castItem xml:id="barnardo">
+          <role>Barnardo</role>
+            <roleDesc>Sentinel</roleDesc>
+        </castItem>
+        <castItem xml:id="horatio">
+          <role>Horatio</role>
+            <roleDesc>Sentinel</roleDesc>
+        </castItem>
+        <castItem xml:id="marcellus">
+          <role>Marcellus</role>
+            <roleDesc>Sentinel</roleDesc>
+          </castItem>
+        </castList>
+      </div>
+    </front>
+
+    <body>
+      <div type="acto" n="1">
+        <div type="escena" n="1">
+          <head>
+            <supplied>1.1</supplied>
+          </head>
+          <app n="1.1.0.1" type="variation-substance">
+  <lem wit="#Q2"> <stage xml:lang="eng" xml:id="ls0b5t83nc_eng" corresp="#ls0b5t83nc_spa">
+            Enter Francisco and Barnardo, two sentinels
+          </stage>
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="lrdt2tsi8z_eng" corresp="#lrdt2tsi8z_spa">
+            <speaker>Barnardo</speaker>
+          <l>Who's there?</l>
+          </sp>
+        
+          <sp who="#Francisco" xml:lang="eng" xml:id="dams5j81g3_eng" corresp="#dams5j81g3_spa">
+            <speaker>Francisco</speaker>
+            <l>Nay, answer me. Stand and unfold yourself.</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="u2aldou3sj_eng" corresp="#u2aldou3sj_spa">
+            <speaker>Barnardo</speaker>
+            <l>Long live the King!</l>
+          </sp>
+          
+          <sp who="#Francisco" xml:lang="eng" xml:id="l8dn60bbfo4_eng" corresp="#l8dn60bbfo4_spa">
+            <speaker>Francisco</speaker>
+            <l>Barnardo?</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="ifsPUouWZb_eng" corresp="#ifsPUouWZb_spa">
+            <speaker>Barnardo</speaker>
+            <l>He.</l>
+          </sp>
+          
+          <sp who="#Francisco" xml:lang="eng" xml:id="c4OCAGqAbK_eng" corresp="#c4OCAGqAbK_spa">
+            <speaker>Francisco</speaker>
+            <l>You come most carefully upon your hour.</l>
+          </sp>
+
+          
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="dc6bZpEFX7_eng" corresp="#dc6bZpEFX7_spa">
+            <speaker>Barnardo</speaker>
+            <l>'Tis now struck <app n="1.4.4">
+                                <lem wit="#Q2 #F">strooke</lem>
+                                <rdg wit="#Riy">strook</rdg>
+                                <rdg wit="#Q1">strucke</rdg>
+                               </app>
+             twelve. Get thee to bed, Francisco.</l>
+          </sp>
+     
+          <sp who="#Francisco" xml:lang="eng" xml:id="sdPi709Cg8_eng" corresp="#sdPi709Cg8_spa">
+            <speaker>Francisco</speaker>
+            <l>For this relief much thanks. 'Tis bitter cold,</l>
+            <l>And I am sick at heart.</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="xO9Yh2KAXx_eng" corresp="#xO9Yh2KAXx_spa">
+            <speaker>Barnardo</speaker>
+            <l>Have you had quiet guard?</l>
+          </sp>
+          
+          <sp who="#Francisco" xml:lang="eng" xml:id="bz1KdFGqtK_eng" corresp="#bz1KdFGqtK_spa">  
+            <speaker>Francisco</speaker>
+            <l>Not a mouse stirring.</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="LQ2fhIpiSF_eng" corresp="#LQ2fhIpiSF_spa">
+            <speaker>Barnardo</speaker>
+            <l>Well, good night.</l>
+            <l>If you do meet Horatio and Marcellus,</l>
+            <l>The rivals <app n="1.1.11" type="variation-substance">
+                            <lem wit="#F">rivals</lem>
+                            <rdg wit="#Q1 #Q2">partners</rdg>
+                          </app>
+              of my watch, bid them make haste.</l>
+          </sp>
+          
+          <stage xml:lang="eng" xml:id="jkuasghbd_eng" corresp="#jkuasghbd_spa">
+            Enter Horatio and Marcellus.
+          </stage>
+
+          <sp who="#Francisco" xml:lang="eng" xml:id="bdNMJldEdT_eng" corresp="#bdNMJldEdT_spa">
+            <speaker>Francisco</speaker>
+            <l>I think I hear them.--Stand, ho! <app n="1.1.12" type="variation-absence">
+                                                  <lem wit="#Q1 #Q2">ho</lem>
+                                                  <rdg wit="#F" type="omission"/>
+                                                </app>
+            Who is there?</l>
+          </sp>
+          </lem>
+          <rdg wit="#Q1">
+    <stage xml:lang="eng" xml:id="enter_centinels_eng" corresp="#enter_centinels_spa">Enter two Centinels.</stage>
+    <sp xml:lang="eng" xml:id="sentinel1_1_eng" corresp="#sentinel1_1_spa">
+      <speaker>1.</speaker>
+      <l>Stand: who is that?</l>
+    </sp>
+    <sp xml:lang="eng" xml:id="sentinel2_1_eng" corresp="#sentinel2_1_spa">
+      <speaker>2.</speaker>
+      <l>'Tis I.</l>
+    </sp>
+    <sp xml:lang="eng" xml:id="sentinel1_2_eng" corresp="#sentinel1_2_spa">
+      <speaker>1.</speaker>
+      <l>O you come most carefully upon your watch.</l>
+    </sp>
+    <sp xml:lang="eng" xml:id="sentinel2_2_eng" corresp="#sentinel2_2_spa">
+      <speaker>2.</speaker>
+      <l>And if you meete Marcellus and Horatio,</l>
+      <l>The partners of my watch, bid them make haste.</l>
+    </sp>
+    <sp xml:lang="eng" xml:id="sentinel1_3_eng" corresp="#sentinel1_3_spa">
+      <speaker>1.</speaker>
+      <l>I will: see who goes there.</l>
+    </sp>
+    <stage xml:lang="eng" xml:id="enter_hor_mar_eng" corresp="#enter_hor_mar_spa">Enter Horatio and Marcellus.</stage>
+  </rdg>
+</app>
+<stage xml:lang="spa" xml:id="ls0b5t83nc_spa" corresp="#ls0b5t83nc_eng">
+            Entran Francisco y Bernardo, dos centinelas
+          </stage>
+<sp who="#Barnardo" xml:lang="spa" xml:id="lrdt2tsi8z_spa" corresp="#lrdt2tsi8z_eng">
+            <speaker>Bernardo</speaker>
+            <l>¿Quién está ahí?</l>
+          </sp>
+<sp who="#Francisco" xml:lang="spa" xml:id="dams5j81g3_spa" corresp="#dams5j81g3_eng">
+            <speaker>Francisco</speaker>
+            <l>No, respóndeme. Ponte de pie y dime quién eres.</l>
+          </sp>
+          <sp who="#Barnardo" xml:lang="spa" xml:id="u2aldou3sj_spa" corresp="#u2aldou3sj_eng">
+            <speaker>Bernardo</speaker>
+            <l>¡Larga vida al rey!</l>
+          </sp>
+          <sp who="#Francisco" xml:lang="spa" xml:id="l8dn60bbfo4_spa" corresp="#l8dn60bbfo4_eng">
+            <speaker>Francisco</speaker>
+            <l>¿Bernardo?</l>
+          </sp>
+
+          <sp who="#Barnardo" xml:lang="spa" xml:id="ifsPUouWZb_spa" corresp="#ifsPUouWZb_eng">
+            <speaker>Bernardo</speaker>
+            <l>El mismo.</l>
+          </sp>
+
+          <sp who="#Francisco" xml:lang="spa" xml:id="c4OCAGqAbK_spa" corresp="#c4OCAGqAbK_eng">
+            <speaker>Francisco</speaker>
+            <l>Llegas con esmero justo a tu turno.</l>
+          </sp>
+
+          <sp who="#Barnardo" xml:lang="spa" xml:id="dc6bZpEFX7_spa" corresp="#dc6bZpEFX7_eng">
+            <speaker>Bernardo</speaker>
+            <l>Ya se ha dado el golpe de las doce. LLevate a la cama, Francisco.</l>
+          </sp>
+
+
+          <sp who="#Francisco" xml:lang="spa" xml:id="sdPi709Cg8_spa" corresp="#sdPi709Cg8_eng">
+            <speaker>Francisco</speaker>
+            <l>Por este descanso muchas gracias. Hace un frío resentido</l>
+            <l>Y enferma el corazón</l>
+          </sp>
+
+
+          <sp who="#Barnardo" xml:lang="spa" xml:id="xO9Yh2KAXx_spa" corresp="#xO9Yh2KAXx_eng">
+            <speaker>Bernardo</speaker>
+            <l>¿Has tenido una guardia callada?</l>
+          </sp>
+          <sp who="#Francisco" xml:lang="spa" xml:id="bz1KdFGqtK_spa" corresp="#bz1KdFGqtK_eng">  
+            <speaker>Francisco</speaker>
+            <l>Ni un ratón escabulléndose</l>
+          </sp>
+
+
+          <sp who="#Barnardo" xml:lang="spa" xml:id="LQ2fhIpiSF_spa" corresp="#LQ2fhIpiSF_eng">
+            <speaker>Bernardo</speaker>
+            <l>Entonces, buena noche</l>
+            <l>Si logras encontrarte con Horacio y Marcelo,</l>
+            <l>mis hermanos en la guarda, encárgalos a tomar afán.</l>
+          </sp>
+
+          <stage xml:lang="spa" xml:id="jkuasghbd_spa" corresp="#jkuasghbd_eng">
+            Entran Horacio y Marcelo.
+          </stage>
+          <sp who="#Francisco" xml:lang="spa" xml:id="bdNMJldEdT_spa" corresp="#bdNMJldEdT_eng">
+            <speaker>Francisco</speaker>
+            <l>Creo oírlos.--¡Quietos! ¿Quién va?</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="ltuupcn5VL_eng" corresp="#ltuupcn5VL_spa">
+            <speaker>Horatio</speaker>
+            <l>Friends to this ground.</l>
+          </sp>
+
+          <sp who="#Horatio" xml:lang="spa" xml:id="ltuupcn5VL_spa" corresp="#ltuupcn5VL_eng">
+            <speaker>Horacio</speaker>
+            <l>Aliados en este suelo.</l>
+          </sp>
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="x8nkqdWrrYW_eng" corresp="#x8nkqdWrrYW_spa">
+            <speaker>Marcellus</speaker>
+            <l>And liegemen to the Dane.</l>
+          </sp>
+
+          <sp who="#Marcellus" xml:lang="spa" xml:id="x8nkqdWrrYW_spa" corresp="#x8nkqdWrrYW_eng">
+            <speaker>Marcelo</speaker>
+            <l>Y leales al rey danés.</l>
+          </sp>
+          
+          <app type="variation-absence">
+            <lem wit="#Q2 #F"><sp who="#Francisco" xml:lang="eng" xml:id="NXzA61wxbH_eng" corresp="#NXzA61wxbH_spa">
+            <speaker>Francisco</speaker>
+            <l>Give you good night.</l>
+          </sp></lem>
+            <rdg wit="#Q1" type="omission"/>
+          </app>
+          
+
+          <sp who="#Francisco" xml:lang="spa" xml:id="NXzA61wxbH_spa" corresp="#NXzA61wxbH_eng">
+            <speaker>Francisco</speaker>
+            <l>Deseo a ustedes buena noche.</l>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="ZYGEs4ZQxF_eng" corresp="#ZYGEs4ZQxF_spa">
+            <speaker>Marcellus</speaker>
+            <l>Oh, farewell, honest soldiers. Who hath relieved you?</l>
+          </sp>
+
+          <sp who="#Marcellus" xml:lang="spa" xml:id="ZYGEs4ZQxF_spa" corresp="#ZYGEs4ZQxF_eng">
+            <speaker>Marcelo</speaker>
+            <l>Ah, adios, nobles soldados.  ¿Quién te ha relevado?</l>
+          </sp>
+          
+          <sp who="#Francisco" xml:lang="eng" xml:id="BXINh2bq3E_eng" corresp="#BXINh2bq3E_spa">
+            <speaker>Francisco</speaker>
+            <l>Barnardo hath my place. Give you good night.</l>
+            <app type="variation-absence">
+              <lem wit="#Q2 #F"><stage>Exit Francisco</stage></lem>
+              <rdg wit="#Q1" type="omission"/>
+            </app>
+          </sp>
+          
+          <sp who="#Francisco" xml:lang="spa" xml:id="BXINh2bq3E_spa" corresp="#BXINh2bq3E_eng">
+            <speaker>Francisco</speaker>
+            <l>Bernardo ocupa mi lugar. Deseo a ustedes buena noche.</l>
+            <stage>Sale Francisco</stage> 
+          </sp>
+
+          <sp who="#Marcellus" xml:lang="eng" xml:id="CJ3h7Tt4a4_eng" corresp="#CJ3h7Tt4a4_spa">
+            <speaker>Marcellus</speaker>
+            <l>Holla, Barnardo!</l>
+          </sp>
+         
+          <sp who="#Marcellus" xml:lang="spa" xml:id="CJ3h7Tt4a4_spa" corresp="#CJ3h7Tt4a4_eng">
+            <speaker>Marcelo</speaker> 
+            <l>¡Eh, Bernardo!</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="MDxtqAhyIR_eng" corresp="#MDxtqAhyIR_spa">
+            <speaker>Barnardo</speaker>
+            <l><app type="variation-absence">
+              <lem wit="#Q2 #F">Say, what, is Horatio there?</lem>
+              <rdg wit="#Q1" type="omission"/>
+            </app> </l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="spa" xml:id="MDxtqAhyIR_spa" corresp="#MDxtqAhyIR_eng">
+            <speaker>Bernardo</speaker>
+            <l>Dime, tú, ¿Está Horacio ahí?</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="BqBjj8bEQW_eng" corresp="#BqBjj8bEQW_spa">
+            <speaker>Horatio</speaker>
+            <l>A piece of him.</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="BqBjj8bEQW_spa" corresp="#BqBjj8bEQW_eng">
+            <speaker>Horacio</speaker>
+            <l>Al menos parte de él.</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="hG8DQXhtgv_eng" corresp="#hG8DQXhtgv_spa">
+            <speaker>Barnardo</speaker>
+            <l>Welcome, Horatio. Welcome, good Marcellus.</l>
+          </sp>
+
+          <sp who="#Barnardo" xml:lang="spa" xml:id="hG8DQXhtgv_spa" corresp="#hG8DQXhtgv_eng">
+            <speaker>Bernardo</speaker>
+            <l>Bienvenido, Horacio. Bienvenido, buen Marcelo.</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="IeBqV8P1If_eng" corresp="#IeBqV8P1If_spa">
+            <speaker>Horatio</speaker>
+            <l>What, has this thing appeared again tonight?</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="IeBqV8P1If_spa" corresp="#IeBqV8P1If_eng">
+            <speaker>Horacio</speaker>
+            <l>Dinos, ¿Ha aparecido esta cosa de nuevo esta noche?</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="UA3INtL3If_eng" corresp="#UA3INtL3If_spa">
+            <speaker>Barnardo</speaker>
+            <l>I have seen nothing.</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="spa" xml:id="UA3INtL3If_spa" corresp="#UA3INtL3If_eng">
+            <speaker>Bernardo</speaker>
+            <l>No he visto nada.</l>
+          </sp>
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="AOwcHeAxBL_eng" corresp="#AOwcHeAxBL_spa">
+            <speaker>Marcellus</speaker>
+            <l>Horatio says 'tis but our fantasy,</l>
+            <l>And will not let belief take hold of him,</l>
+            <l>Touching this dreaded sight twice seen of us.</l>
+            <l>Therefore I have entreated him along,</l>
+            <l>With us to watch the minutes of this night,</l>
+            <l>That if again this apparition come</l>
+            <l>He may approve our eyes and speak to it.</l>
+          </sp>
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="AOwcHeAxBL_spa" corresp="#AOwcHeAxBL_eng">
+            <speaker>Marcelo</speaker>
+            <l>Horacio lo acusa de ser menos que una fantasía,</l>
+            <l>Y no dejará que la fé se apodere de él,</l>
+            <l>Al hablar de este horrible ser visto dos veces entre nosotros.</l>
+            <l>Entonces lo he convencido a que nos acompañe,</l>
+            <l>Para que vigile con nosotros cada minuto de esta noche,</l>
+            <l>Así, si está aparición vuelve a manifestarse</l>
+            <l>Él puede confirmar nuestra visión y hablarle.</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="Uxg4tmEsyB_eng" corresp="#Uxg4tmEsyB_spa">
+            <speaker>Horatio</speaker>
+            <l> Tush, <app type="variation-absence">
+              <lem wit="#Q2 #F">tush, </lem>
+              <rdg wit="#Q1" type="omission"/>
+            </app>'twill not appear.</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="Uxg4tmEsyB_spa" corresp="#Uxg4tmEsyB_eng">
+            <speaker>Horacio</speaker>
+            <l>No, no, no habrá de manifestarse.</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="OcbzBPJLsW_eng" corresp="#OcbzBPJLsW_spa">
+            <speaker>Gertrard</speaker>
+            <p> Sit down <app type="variation-present">
+              <lem wit="#Q2 #F">awhile,</lem>
+              <rdg wit="#Q1">I pray,</rdg>
+            </app>
+                And let us once again assail your ears,
+                That are so fortified <app type="variation-absence">
+                  <lem wit="#Q2 #F">against our story,</lem>
+                  <rdg wit="#Q1" type="omission"/>
+                </app>
+                What we have two nights <app n="1.1.32" type="variation-present">
+                                         <lem wit="#Q1">have two nights</lem>
+                                         <rdg wit="#F">two Nights haue</rdg>
+                                        </app>
+                seen.</p>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="spa" xml:id="OcbzBPJLsW_spa" corresp="#OcbzBPJLsW_eng">
+            <speaker>Bernardo</speaker> 
+            <p> Siéntate un rato,
+                Y déjanos una vez más asaltar su oídos,
+                Que están tan fortalecidos contra nuestra historia, 
+                Lo que vimos dos noches.</p>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="jhuctEyl4u_eng" corresp="#jhuctEyl4u_spa">
+            <speaker>Horatio</speaker>
+            <l>Well, sit we down,</l>
+            <l>And let us hear Barnardo speak of this.</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="jhuctEyl4u_spa" corresp="#jhuctEyl4u_eng">
+            <speaker>Horacio</speaker>
+            <l>Muy bien, sentémonos,</l>
+            <l>Y escuhcemos lo que tiene que decir Bernardo sobre esto.</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="wsg_3l3_qgc_eng" corresp="#wsg_3l3_qgc_spa">
+            <speaker>Barnardo</speaker>
+            <l>Last night of all,</l>
+            <l>When yond same star that's westward from the pole</l>
+            <l>Had made his course t'illume that part of heaven</l>
+            <l>Where now it burns, Marcellus and myself,</l>
+            <l>The bell then beating one--</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="spa" xml:id="wsg_3l3_qgc_spa" corresp="#wsg_3l3_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <l>La noche pasada,</l>
+            <l>cuando aquella misma estrella al oeste del polo</l>
+            <l>había recorrido su curso para iluminar</l>
+            <l>la parte del cielo donde ahora arde,</l>
+            <l>Marcelo y yo estábamos allí,</l>
+            <l>la campana marcando la una—</l>
+          </sp>
+          
+          <stage xml:lang="eng" xml:id="xlz_xl3_qgc_eng" corresp="#xlz_xl3_qgc_spa">
+            Enter <persName>Ghost</persName> <app n="1.1.39" type="variation-presence">
+                                              <lem wit="#Q1">GHOST</lem>
+                                              <rdg wit="#F">the Ghost</rdg>
+                                             </app>
+            .
+          </stage>
+
+          <stage xml:lang="spa" xml:id="xlz_xl3_qgc_spa" corresp="#xlz_xl3_qgc_eng">
+            Entra <persName>Fantasma</persName>.
+          </stage>
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="grk_nl3_qgc_eng" corresp="#grk_nl3_qgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>Peace, break thee <app n="1.1.39" type="variation-presence">
+                                      <lem wit="#Q2 #F">(of)</lem>
+                                      <rdg wit= "#Q1">off</rdg>
+                                     </app>
+                                     <app n="1.1.143" type="variation-substance">
+  <lem wit="#Q2 #F">Peace, break thee off! Look where it comes again!</lem>
+  <rdg wit="#Q1">Peace, breake off your talke! See where it comes again!</rdg>
+</app>
+            </l>
+          </sp>
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="grk_nl3_qgc_spa" corresp="#grk_nl3_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>¡Silencio, calle! ¡Mire por dónde viene de nuevo!</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="khw_pl3_qgc_eng" corresp="#khw_pl3_qgc_spa">
+            <speaker>Barnardo</speaker>
+            <l>In the same figure like the King that's dead.</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="spa" xml:id="khw_pl3_qgc_spa" corresp="#khw_pl3_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <l>Con el mismo aspecto de nuestro fallecido rey.</l>
+          </sp>
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="wxd_rl3_qgc_eng" corresp="#wxd_rl3_qgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>Thou art a scholar. Speak to it, Horatio.</l>
+          </sp>
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="wxd_rl3_qgc_spa" corresp="#wxd_rl3_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>Usted es un experto. Comuniquese con eso, Horacio</l>
+          </sp>
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="xn4_5l3_qgc_eng" corresp="#xn4_5l3_qgc_spa">
+            <speaker>Barnardo</speaker>
+            <l>Looks 'a not like the King? Mark it, Horatio.</l>
+          </sp>
+            
+          <sp who="#Barnardo" xml:lang="spa" xml:id="xn4_5l3_qgc_spa" corresp="#xn4_5l3_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <l>¿Acaso no se ve cómo el rey? Fijese, Horacio.</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="bgh_bm3_qgc_eng" corresp="#bgh_bm3_qgc_spa">
+            <speaker>Horatio</speaker>
+            <l>Most like. It harrows me with fear and wonder.</l>
+          </sp>
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="bgh_bm3_qgc_spa" corresp="#bgh_bm3_qgc_eng">
+            <speaker>Horacio</speaker>
+            <l>Más que nadie. Me escarifica con temor e intriga.</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="x4w_fm3_qgc_eng" corresp="#x4w_fm3_qgc_spa">
+            <speaker>Barnardo</speaker>
+            <l>It would be spoke to.</l>
+          </sp>
+          
+          <app>
+            <lem wit ="#Q2">to</lem>
+            <rdg wit="F1" type="variation-substance">too</rdg>
+          </app>
+
+          <sp who="#Barnardo" xml:lang="spa" xml:id="x4w_fm3_qgc_spa" corresp="#x4w_fm3_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <l>Ha de ser interrogado.</l>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="udm_3m3_qgc_eng" corresp="#udm_3m3_qgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>Speak to <app n="1.1.44" type="variation-present">
+                          <lem wit="#Q1 #Q2">Speak to</lem>
+                          <rdg wit="#F">Question</rdg>
+                        </app>
+            it, Horatio.</l>
+          </sp>
+         
+          <sp who="#Marcellus" xml:lang="spa" xml:id="udm_3m3_qgc_spa" corresp="#udm_3m3_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>Hablele, Horacio.</l>
+          </sp>
+          
+          
+<sp who="#Horatio" xml:lang="eng" xml:id="xqb_lm3_qgc_eng" corresp="#xqb_lm3_qgc_spa">
+  <speaker>Horatio</speaker>
+  <l>What art thou that usurp'st this time of night,</l>
+  <l>Together with that fair and warlike form</l>
+  <l>In which the majesty of buried Denmark</l>
+  <l>Did sometimes march? By heaven, I charge thee speak!</l>
+</sp>
+
+
+
+        <sp who="#Horatio" xml:lang="spa" xml:id="xqb_lm3_qgc_spa" corresp="#xqb_lm3_qgc_eng">
+          <speaker>Horacio</speaker>
+          <l>¿Qué eres tú, que usurpas esta hora de la noche,</l>
+          <l>con esa forma noble y belicosa</l>
+          <l>en la que su majestad del difunto Dinamarca</l>
+          <l>solía marchar? ¡Por el cielo, te encargo que hables!</l>
+        </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="vtk_pm3_qgc_eng" corresp="#vtk_pm3_qgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>It is offended.</l>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="vtk_pm3_qgc_spa" corresp="#vtk_pm3_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>Está ofendido.</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="q2r_rm3_qgc_eng" corresp="#q2r_rm3_qgc_spa">
+            <speaker>Barnardo</speaker>
+            <l>See, it stalks away.</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="spa" xml:id="q2r_rm3_qgc_spa" corresp="#q2r_rm3_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <l>Mira, se marcha con paso espectral.</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="ycg_ym3_qgc_eng" corresp="#ycg_ym3_qgc_spa">
+            <speaker>Horatio</speaker>
+            <l>Stay, speak, speak, I charge thee speak!</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="ycg_ym3_qgc_spa" corresp="#ycg_ym3_qgc_eng">
+            <speaker>Horacio</speaker>
+            <l>¡Quedate, habla, habla, te encargo que hables!</l>
+          </sp>
+
+          <stage xml:lang="eng" xml:id="mzw_pn3_qgc_eng" corresp="#mzw_pn3_qgc_spa">
+            Exit <persName>Ghost</persName>
+            <app n="1.1.50" type="variation-presence">
+              <lem wit="#Q1 #Q2">Ghost</lem>
+              <rdg wit="#F">the Ghost</rdg>
+            </app>.
+          </stage>
+
+          <stage xml:lang="spa" xml:id="mzw_pn3_qgc_spa" corresp="#mzw_pn3_qgc_eng">
+            Sale el fantasma.
+          </stage>
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="dn5_1n3_qgc_eng" corresp="#dn5_1n3_qgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>Tis gone, and will not answer.</l>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="dn5_1n3_qgc_spa" corresp="#dn5_1n3_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>Se ha ido, y no va a respondernos.</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="hzv_cn3_qgc_eng" corresp="#hzv_cn3_qgc_spa">
+            <speaker>Barnardo</speaker>
+            <l>How now, Horatio, you tremble and look pale.</l>
+            <l>Is not this something more than fantasy?</l>
+            <l>What think you on't?</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="spa" xml:id="hzv_cn3_qgc_spa" corresp="#hzv_cn3_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <lg>
+            <l>Acaso ahora, Horacio, tiemblas y te ves pálido.</l>
+            <l>¿es esto no algo más que fantasía?</l>
+            <l>¿Qué piensas al respecto?</l>
+            </lg>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="zk1_fn3_qgc_eng" corresp="#zk1_fn3_qgc_spa">
+            <speaker>Horatio</speaker>
+            <lg>
+          <l>Before my God, I might not this believe</l>
+          <l>Without the sensible and true avouch</l>
+          <l>Of mine own eyes.</l>
+            </lg>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="zk1_fn3_qgc_spa" corresp="#zk1_fn3_qgc_eng">
+            <speaker>Horacio</speaker>
+            <lg>
+          <l>Ante Dios, jamás lo habría creído</l>
+          <l>sin el testimonio claro y verdadero</l>
+          <l>de mis propios ojos.</l>
+            </lg>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="ny2_jn3_qgc_eng" corresp="#ny2_jn3_qgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>Is it not like the King?</l>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="ny2_jn3_qgc_spa" corresp="#ny2_jn3_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>¿No es como el rey?</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="gy2_mn3_qgc_eng" corresp="#gy2_mn3_qgc_spa">
+            <speaker>Horatio</speaker>
+            <lg>
+          <l>As thou art to thyself.</l>
+          <l>Such was the very armor he had on</l>
+          <l>When he the ambitious Norway combated.</l>
+          <l>So frowned he once, when in an angry parle</l>
+          <l>He smote the sledded Polacks on the ice.</l>
+          <l>'Tis strange.</l>
+        </lg>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="gy2_mn3_qgc_spa" corresp="#gy2_mn3_qgc_eng">
+            <speaker>Horacio</speaker>
+            <lg>
+          <l>Como tú te pareces a ti mismo.</l>
+          <l>Tal era la misma armadura que llevaba</l>
+          <l>cuando combatió al ambicioso rey de Noruega.</l>
+          <l>Así frunció el ceño una vez,</l>
+          <l>cuando, en una negociación airada,</l>
+          <l>golpeó a los polacos en trineos sobre el hielo.</l>
+          <l>Es extraño.</l>
+        </lg>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="rvt_nn3_qgc_eng" corresp="#rvt_nn3_qgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>Thus twice before, and jump at this dead hour,</l>
+            <l>With martial stalk<app type="variation-present">
+                                <lem wit="#Q2">hath he gone by</lem>
+                                <rdg wit="#Q1">he passed through</rdg>
+            </app> our watch.</l>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="rvt_nn3_qgc_spa" corresp="#rvt_nn3_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>Así, dos veces antes,y justo en esta hora muerta,</l>
+            <l>con paso marcial ha cruzado nuestra guardia.</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="elz_sn3_qgc_eng" corresp="#elz_sn3_qgc_spa">
+            <speaker>Horatio</speaker>
+            <lg>
+              <l>In what particular <app type="variation-absence">
+                                <lem wit="#Q2">thought</lem>
+                                <rdg wit="#Q1" type="omission"/>
+              </app> to work I know not,</l>
+              <l>But in the gross and scope of mine opinion</l>
+              <l>This bodes some strange eruption to our state.</l>
+            </lg>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="elz_sn3_qgc_spa" corresp="#elz_sn3_qgc_eng">
+            <speaker>Horacio</speaker>
+          <lg>
+              <l>No sé con qué propósito específico actúa,</l>
+              <l>pero en el conjunto de mi juicio,</l>
+              <l>esto presagia una extraña irrupción en nuestro reino.</l>
+          </lg>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="eng" xml:id="hqw_vn3_qgc_eng" corresp="#hqw_vn3_qgc_spa">
+            <speaker>Marcellus</speaker>
+           <l>Good now, sit down, and tell me, he that knows,</l>
+        <l>Why this same strict and most observant watch</l>
+        <l>So nightly toils the subject of the land,</l>
+        <l>And with such daily cost of brazen cannon</l>
+        <l>And foreign mart for implements of war,</l>
+        <l>Why such impress of shipwrights, whose sore task</l>
+        <l>Does not divide the Sunday from the week:</l>
+        <l>What might be toward, that this sweaty haste</l>
+        <l>Doth make the night joint-laborer with the day?</l>
+        <l>Who is't that can inform me?</l>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="hqw_vn3_qgc_spa" corresp="#hqw_vn3_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>Vamos, siéntate y dime tú, si sabes,</l>
+            <l>por qué esta estricta y vigilante guardia</l>
+            <l>fatiga cada noche al pueblo,</l>
+            <l>y por qué tanto gasto diario en cañones de bronce</l>
+            <l>y en mercados extranjeros para instrumentos de guerra,</l>
+            <l>por qué se recluta a tantos carpinteros navales,</l>
+            <l>cuya dura labor no distingue el domingo de la semana.</l>
+            <l>¿Qué se avecina, que esta prisa sudorosa</l>
+            <l>hace que la noche trabaje junto con el día?</l>
+            <l>¿Quién es el que pueda informarme?</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="psj_yn3_qgc_eng" corresp="#psj_yn3_qgc_spa">
+            <speaker>Horatio</speaker>
+            <l><app n="X" type="variation-absence">
+  <lem wit="#Q2" type="omission"/>
+  <rdg wit="#Q1">Mary</rdg>
+</app>
+        That can I.</l>
+        <l>At least the whisper goes so: our last King,</l>
+        <app n="X" type="variation-absence">
+  <lem wit="#Q2">Whose image even but now appeared to us,</lem>
+  <rdg wit="#Q1" type="omission"></rdg>
+</app>
+        <l>Was as you know by Fortinbras of Norway,</l>
+        <l>Thereto pricked on by a most emulate <app type="variation-substance">
+          <lem wit="#Q2">pride</lem>
+          <rdg wit="#Q1">cause</rdg>
+        </app>,</l>
+        <l>Dared to the combat; in which our valiant Hamlet</l>
+        <l>For so this side of our known world esteemed him</l>
+        <l>Did slay this Fortinbras, who by a sealed compact</l>
+        <l>Well ratified by law and heraldry</l>
+        <l>Did forfeit, with his life, all these his lands</l>
+        <l>Which he stood seized of, to the conqueror;</l>
+        <l>Against the which a moiety competent</l>
+        <l>Was gagèd by our King</l>
+        <l>
+          <app n="X" type="variation-absence">
+            <lem wit="#Q2">, which had return</lem>
+            <rdg wit="#Q1" type="omission"/>
+          </app>
+        </l>
+        <l>
+  <app n="X" type="variation-absence">
+    <lem wit="#Q2">To the inheritance of Fortinbras</lem>
+    <rdg wit="#Q1" type="omission"/>
+  </app>
+</l>
+
+<l>
+  <app n="X" type="variation-absence">
+    <lem wit="#Q2">Had he been vanquisher, as, by the same comart</lem>
+    <rdg wit="#Q1" type="omission"/>
+  </app>
+</l>
+
+<l>
+  <app n="X" type="variation-absence">
+    <lem wit="#Q2">And carriage of the article</lem>
+    <rdg wit="#Q1" type="omission"/>
+  </app>
+</l>
+
+<l>
+  <app n="X" type="variation-absence">
+    <lem wit="#Q2">His fell to Hamlet.</lem>
+    <rdg wit="#Q1" type="omission"/>
+  </app>
+  Now, sir, young Fortinbras,
+</l>
+        <l>Of unimprovèd mettle hot and full,</l>
+        <l>Hath in the skirts of Norway here and there</l>
+        <l>Sharked up a list of lawless resolutes</l>
+        <l>For food and diet to some enterprise</l> </sp>
+<app n="big-omission" type="variation-absence"
+     from="#bigvar_start" to="#bigvar_end">
+
+  <lem wit="#Q2">
+    <ptr target="#bigvar_start"/> 
+    <ptr target="#bigvar_end"/>
+  </lem>
+
+  <rdg wit="#Q1">
+    <l>and this (I take it) is the</l>
+    <l>Chiefe head and ground of this our watch.</l>
+  </rdg>
+
+  <rdg wit="#F1" type="omission"/>
+</app>
+        
+<anchor xml:id="bigvar_start"/>
+        <l>That hath a stomach in't, which is no other,</l>
+<l>As it doth well appear unto our state,</l>
+<l>But to recover of us by strong hand</l>
+<l>And terms compulsatory those foresaid lands</l>
+<l>So by his father lost. And this, I take it,</l>
+<l><anchor xml:id="bigvar_start_1"/>Is the main motive of our preparations,</l>
+<l>Is the main motive of our preparations,</l>
+<l>The source of this our watch, and the chief head</l>
+<l>Of this post-haste and rummage in the land.</l>
+
+<!-- Barnardo -->
+<sp who="#Barnardo" xml:lang="eng" xml:id="igv_243_qgc_eng" corresp="#igv_243_qgc_spa">
+  <speaker>Barnardo</speaker>
+  <l>I think it be no other but e'en so.</l>
+  <l>Well may it sort that this portentous figure</l>
+  <l>Comes armèd through our watch so like the King</l>
+  <l>That was and is the question of these wars.</l>
+</sp>
+
+<!-- Horatio -->
+<sp who="#Horatio" xml:lang="eng" xml:id="fcw_h43_qgc_eng" corresp="#fcw_h43_qgc_spa">
+  <speaker>Horatio</speaker>
+  <l>A mote it is to trouble the mind's eye.</l>
+  <l>In the most high and palmy state of Rome,</l>
+  <l>(...)</l>
+  <l>Have heaven and earth together demonstrated</l>
+  <l>Unto our climatures and countrymen.<anchor xml:id="bigvar_end"/></l>
+</sp>
+
+ <sp who="#Horatio" xml:lang="spa" xml:id="psj_yn3_qgc_spa" corresp="#psj_yn3_qgc_eng">
+            <speaker>Horacio</speaker>
+           <l>Eso puedo decir.</l>
+        <l>Al menos así corre el rumor: nuestro último rey,</l>
+        <l>cuya imagen acaba de aparecérsenos,</l>
+        <l>fue, como sabes, desafiado por Fortinbras de Noruega,</l>
+        <l>movido por un orgullo emulador,</l>
+        <l>y se atrevió al combate; en el cual nuestro valiente Hamlet—</l>
+        <l>pues así lo estimaba este lado del mundo conocido—</l>
+        <l>dio muerte a ese Fortinbras, quien, por un pacto sellado</l>
+        <l>y bien ratificado por ley y heráldica,</l>
+        <l>perdió, junto con su vida, todas las tierras</l>
+        <l>que poseía, en favor del vencedor.</l>
+        <l>Contra ello, una parte equivalente</l>
+        <l>fue empeñada por nuestro rey, que habría vuelto</l>
+        <l>a manos de Fortinbras si él hubiese vencido,</l>
+        <l>como estipulaba ese mismo contrato</l>
+        <l>y el diseño del artículo,</l>
+        <l>por el cual las tierras pasaron a Hamlet. Ahora bien, el joven Fortinbras,</l>
+        <l>de temple ardiente y sin refinar,</l>
+        <l>ha reunido aquí y allá, en los márgenes de Noruega,</l>
+        <l>una lista de hombres resueltos pero sin ley,</l>
+        <l>como sustento para alguna empresa</l>
+        <l>que exige coraje, y que no es otra,</l>
+        <l>como bien lo percibe nuestro reino,</l>
+        <l>sino recuperar por la fuerza</l>
+        <l>y bajo términos compulsivos</l>
+        <l>aquellas tierras que su padre perdió. Y esto, según entiendo,</l>
+        <l>es el motivo principal de nuestros preparativos,</l>
+        <l>la causa de esta guardia constante,</l>
+        <l>y la razón mayor de tanta prisa y agitación en el reino.</l>
+          </sp>
+
+          <sp who="#Barnardo" xml:lang="spa" xml:id="igv_243_qgc_spa" corresp="#igv_243_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <l>Creo que no puede ser otra cosa, sino justamente eso.</l>
+            <l>Bien puede encajar que esta figura portentosa</l>
+            <l>aparezca armada durante nuestra guardia,</l>
+            <l>tan parecida al Rey,</l>
+            <l>que fue y sigue siendo la causa de estas guerras</l>
+          </sp>
+          
+         
+        <sp who="#Horatio" xml:lang="eng" xml:id="psj_yn2_qgc_eng" corresp="#psj_yn2_qgc_spa"><stage>Enter Ghost.</stage>
+        <app>
+          <lem wit ="#Q2">Enter Ghost.</lem>
+          <rdg wit="F1" type="variation-substance">Enter Ghost Againe</rdg>
+        </app>
+        <l>But <app type="variation-absence"><lem wit="Q2">soft</lem>
+        <rdg wit="Q1" type="omission"></rdg></app>, behold, lo, where it comes again!</l>
+        <l>I'll cross it though it blast me.--Stay, illusion!</l>
+        <l>It spreads his arms. <stage>
+</stage>
+        </l>
+        <l>If thou hast any sound or use of voice,</l>
+        <l>Speak to me!</l>
+        <l>If there be any good thing to be done</l>
+        <l>That may to thee do ease and grace to me,</l>
+        <l>Speak to me!</l>
+        <l>If thou art privy to thy country's fate,</l>
+        <l>Which happily foreknowing may avoid,</l>
+        <l>Oh, speak!</l>
+        <l>Or if thou hast uphoarded in thy life</l>
+        <l>Extorted treasure in the womb of earth,</l>
+        <l>For which, they say, your spirits oft walk in death,</l>
+        <l>Speak of it. Stay and speak!</l>
+        <app n="1.1.xx" type="variation-absence">
+  <lem wit="#Q2">
+    <stage>The cock crows.</stage>
+  </lem>
+  <rdg wit="#Q1" type="omission"/>
+</app>
+          <p>Stop it, Marcellus!</p>
+          </sp>
+          
+
+          <sp who="#Horatio" xml:lang="spa" xml:id="fcw_h43_qgc_spa" corresp="#fcw_h43_qgc_eng">
+            <speaker>Horacio</speaker> 
+           <l>Es como una mota que perturba el ojo de la mente.</l>
+        <l>En el glorioso y elevado estado de Roma,</l>
+        <l>poco antes de la caída del poderoso Julio César,</l>
+        <l>las tumbas quedaron vacías, y los muertos en sudarios</l>
+        <l>chillaban y balbuceaban por las calles romanas,</l>
+        <l>mientras estrellas con estelas de fuego y rocíos de sangre,</l>
+        <l>y desastres en el sol,</l>
+        <l>y la estrella húmeda, cuyo influjo sostiene el imperio de Neptuno,</l>
+        <l>enfermaba casi hasta el día del juicio por un eclipse.</l>
+        <l>Y presagios semejantes de eventos temidos,</l>
+        <l>como heraldos que siempre preceden al destino,</l>
+        <l>y prólogo del presagio que se avecina,</l>
+        <l>han sido mostrados por cielo y tierra</l>
+        <l>a nuestras tierras y compatriotas.</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="psj_yn2_qgc_spa" corresp="#psj_yn2_qgc_eng">
+            <speaker>Horacio</speaker>
+        <stage>Entra fantasma.</stage>
+        <l>Pero espera… ¡mira, ahí viene otra vez!</l>
+        <l>Me interpondré, aunque me fulmine.¡Detente, ilusión!</l>
+        <stage>Abre sus brazos</stage>
+        <l>¡Si tienes voz o sonido alguno, háblame!</l>
+        <l>Si hay algo bueno que pueda hacerse,</l>
+        <l>que te dé alivio a ti y gracia a mí,</l>
+        <l>¡háblame!</l>
+        <l>Si conoces el destino de tu patria,</l>
+        <l>que acaso, sabiéndolo, pudiera evitarse,</l>
+        <l>¡oh, habla!</l>
+        <l>O si en vida acumulaste tesoros extorsionados</l>
+        <l>en el seno de la tierra,</l>
+        <l>por lo cual, dicen, los espíritus suelen vagar tras la muerte,</l>
+        <l>habla de ello. ¡Quedate y habla!</l>
+          <stage>Canta el gallo</stage>
+          <p>¡Detenlo, Marcelo!</p>
+          </sp>
+          <app n="1.1.xx" type="variation-absence">
+  <lem wit="#Q2">
+
+    <sp who="#Marcellus" xml:lang="spa" xml:id="pfg_k43_qgc_spa" corresp="#pfg_k43_qgc_eng">
+      <speaker>Marcelo</speaker>
+      <l>¿Debo atacarlo con mi alabarda?</l>
+    </sp>
+
+    <sp who="#Horatio" xml:lang="spa" xml:id="xv3_m43_qgc_spa" corresp="#xv3_m43_qgc_eng">
+      <speaker>Horacio</speaker>
+      <l>Hazlo, si no se detiene.</l>
+    </sp>
+
+  </lem>
+
+  <rdg wit="#Q1" type="omission"/>
+</app>
+
+          
+          <sp who="#Barnardo" xml:lang="eng" xml:id="pxn_q43_qgc_eng" corresp="#pxn_q43_qgc_spa">
+            <speaker>Barnardo</speaker>
+            <l>'Tis here.</l>
+          </sp>
+          
+          
+          <sp who="#Barnardo" xml:lang="spa" xml:id="pxn_q43_qgc_spa" corresp="#pxn_q43_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <l>Está aquí.</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="eng" xml:id="n1l_s43_qgc_eng" corresp="#n1l_s43_qgc_spa">
+            <speaker>Horatio</speaker>
+            <l>Tis here.</l>
+          </sp>
+          
+          
+          <sp who="#Horatio" xml:lang="spa" xml:id="n1l_s43_qgc_spa" corresp="#n1l_s43_qgc_eng">
+            <speaker>Horacio</speaker>
+            <l>Está aquí.</l>
+          </sp>
+          
+          <stage xml:lang="eng" xml:id="aoisknhhkd_eng" corresp="#aoisknhhkd_spa">
+            Exit Ghost.
+          </stage>
+          <stage xml:lang="spa" xml:id="aoisknhhkd_spa" corresp="#aoisknhhkd_eng">
+            Sale Fantasma.
+          </stage>
+
+          <sp who="#Marcellus" xml:lang="eng" xml:id="r4f_v43_qgc_eng" corresp="#r4f_v43_qgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>'Tis gone.</l>
+          <l>We do it wrong, being so majestical,</l>
+          <l>To offer it the show of violence,</l>
+          <l>For it is as the air, invulnerable,</l>
+          <l>And our vain blows malicious mockery.</l>
+          </sp>
+          
+          
+          <sp who="#Marcellus" xml:lang="spa" xml:id="r4f_v43_qgc_spa" corresp="#r4f_v43_qgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>Se ha ido.</l>
+            <l>Le faltamos al respeto, siendo tan majestuoso,</l>
+            <l>al ofrecerle una muestra de violencia,</l>
+            <l>y nuestros golpes vanos son burla maliciosa.</l>
+          </sp>
+
+          <sp who="#Barnardo" xml:lang="eng" xml:id="dzf_x43_qgc_eng" corresp="#dzf_x43_qgc_spa">
+            <speaker>Barnardo</speaker>
+            <l>It was about to speak when the cock crew.</l>
+            </sp>
+
+          <sp who="#Barnardo" xml:lang="spa" xml:id="dzf_x43_qgc_spa" corresp="#dzf_x43_qgc_eng">
+            <speaker>Bernardo</speaker>
+            <l>Estaba a punto de hablar cuando cantó el gallo.</l>
+            </sp>
+          <sp who="#Horatio" xml:lang="eng" xml:id="bzf_x43_qrc_eng" corresp="#bzf_x43_qrc_spa">
+            <speaker>Horatio</speaker>
+            <l>And then it started like a guilty thing</l>
+          <l>Upon a fearful summons. I have heard</l>
+          <l>The cock, that is the trumpet to the morn, <app n="1.1.149" type="lexical">
+  <lem wit="#editor">morn</lem>
+  <rdg wit="#Q7">day</rdg>
+  <rdg wit="#Q1">morning</rdg>
+</app>
+</l>
+          <l>Doth with his lofty and shrill-sounding throat</l><app n="1.1.150" type="lexical">
+  <lem wit="#editor">shrill-sounding</lem>
+  <rdg wit="#F">
+    <choice>
+      <orig>shrill sounding</orig>
+      <reg>shrill-sounding</reg>
+    </choice>
+  </rdg>
+  <rdg wit="#Q1">
+    <choice>
+      <orig>shrill crowing</orig>
+      <reg>shrill-crowing</reg>
+    </choice>
+  </rdg>
+</app>
+          <l>Awake the god of day, and, at his warning,</l>
+          <l>Whether in sea or fire, in earth or air,</l>
+          <l>Th'extravagant and erring spirit hies</l>
+          <l>To his confine; and of the truth herein</l>
+          <l>This present object made probation.</l>
+          </sp>
+          <sp who="#Horacio" xml:lang="spa" xml:id="bzf_x43_qrc_spa" corresp="#bzf_x43_qrc_eng">
+            <speaker>Horacio</speaker>
+          <l>Y entonces huyó, como cosa culpable</l>
+          <l>ante una llamada temible. He oído decir</l>
+          <l>que el gallo, trompeta del amanecer,</l>
+          <l>con su garganta alta y aguda</l>
+          <l>despierta al dios del día; y ante su advertencia,</l>
+          <l>ya sea en mar, fuego, tierra o aire,,</l>
+          <l>el espíritu errante y desviado se apresura</l>
+          <l>a volver a su confinamiento.</l>
+          <l>Y de la verdad de esto,</l>
+          <l>esta aparición ha dado prueba.</l>
+          </sp>
+        <sp who="#Marcellus" xml:lang="eng" xml:id="dzf_f43_pgc_eng" corresp="#dzf_f43_pgc_spa">
+            <speaker>Marcellus</speaker>
+            <l>It faded on the crowing of the cock.</l>
+          <l>Some say <app n="1.1.157" type="orthographic">
+  <lem wit="#Q1 #Q2 #editor">say</lem>
+  <rdg wit="#F">
+    <choice>
+      <orig>sayes</orig>
+      <reg>say</reg>
+    </choice>
+  </rdg>
+</app>
+          that ever 'gainst that season comes</l>
+          <l>Wherein our Savior's birth is celebrated,</l>
+          <l>This <app n="1.1.159" type="lexical">
+  <lem wit="#editor">This</lem>
+  <rdg wit="#Q1 #F">The</rdg>
+</app>
+          bird of dawning singeth all night long,</l>
+          <l>And then they say no spirit dare stir <app n="1.1.160" type="lexical">
+  <lem wit="#editor">dare stir</lem>
+  <rdg wit="#Q1">dare walke</rdg>
+  <rdg wit="#F">can walke</rdg>
+</app>
+         abroad;</l>
+          <l>The nights are wholesome, then no planets strike,</l>
+          <l>No fairy takes <app n="1.1.162" type="lexical">
+  <lem wit="#Q1 #Q2">takes</lem>
+  <rdg wit="#F">talkes</rdg>
+</app>
+          , nor witch hath power to charm,</l>
+          <l>So hallowed and so gracious is that <app n="1.1.163" type="lexical">
+  <lem wit="#Q1 #Q2">that</lem>
+  <rdg wit="#F">the</rdg>
+</app>
+           time.</l>
+          <app>
+              <lem wit ="#Q2">Hallow'd</lem>
+              <rdg wit="F1" type="variation-substance">Hallowed</rdg>
+          </app>
+          </sp>
+          <sp who="#Marcellus" xml:lang="spa" xml:id="dzf_f43_pgc_spa" corresp="#dzf_f43_pgc_eng">
+            <speaker>Marcelo</speaker>
+           <l>Se desvaneció al canto del gallo.</l>
+          <l>Dicen que cuando se acerca la temporada</l>
+          <l>en que se celebra el nacimiento de nuestro Salvador,</l>
+          <l>el ave del amanecer canta toda la noche,</l>
+          <l>y entonces ningún espíritu se atreve a vagar;</l>
+          <l>las noches son saludables, ningún planeta hiere,</l>
+          <l>ningún hada arrebata, ni bruja puede hechizar,</l>
+          <l>tan sagrado y tan lleno de gracia es ese tiempo.</l>
+          </sp>
+
+          <sp who="#Horatio" xml:lang="eng" xml:id="dzf_x53_pgc_eng" corresp="#dzf_x53_pgc_spa">
+            <speaker>Horatio</speaker>
+            <l>So have I heard and do in part believe it.</l>
+          <l>But look, the morn in russet mantle clad</l>
+          <l>Walks o'er the dew of yon high eastward <app n="1.1.166" type="orthographic">
+  <lem wit="#Q1 #Q2 #editor">eastward</lem>
+  <rdg wit="#F">
+    <choice>
+      <orig>Easterne</orig>
+      <reg>eastward</reg>
+    </choice>
+  </rdg>
+</app>
+          hill.</l>
+          <l>Break we our watch up, and by my advice</l>
+          <l>Let us impart what we have seen tonight</l>
+          <l>Unto young Hamlet, for, upon my life,</l>
+          <l>This spirit, dumb to us, will speak to him.</l>
+          <l>Do you consent we shall acquaint him with it</l>
+          <l>As needful in our loves, fitting our duty?</l>
+          </sp> 
+
+          <sp who="#Horatio" xml:lang="spa" xml:id="dzf_x53_pgc_spa" corresp="#dzf_x53_pgc_eng">
+            <speaker>Horacio</speaker>
+            <l>Así lo he oído, y en parte lo creo.</l>
+          <l>Pero mira: la mañana, vestida de manto rojizo,</l>
+          <l>camina sobre el rocío de aquella alta colina del este.</l>
+          <l>Terminemos nuestra guardia,</l>
+          <l>y según mi consejo, contemos lo que hemos visto esta noche</l>
+          <l>al joven Hamlet; pues, por mi vida,</l>
+          <l>este espíritu, mudo ante nosotros, le hablará a él.</l>
+          <l>¿Consientes que le informemos de esto,</l>
+          <l>por afecto necesario y deber cumplido?</l>
+          </sp>
+
+          <sp who="#Marcellus" xml:lang="eng" xml:id="dzg_x43_pgc_eng" corresp="#dzg_x43_pgc_spa">
+            <speaker>Marcellus</speaker>
+           <l>Let's <app n="1.1.173" type="contraction">
+  <lem wit="#Q1 #Q2 #editor">Let’s</lem>
+  <rdg wit="#F">Let</rdg>
+</app>
+         do't, I pray, and I this morning know</l>
+           <app>
+              <lem>do't</lem>
+              <rdg wit="Q2" type="variation-substance">doo't</rdg>
+          </app>
+          <l>Where we shall find him most convenient <app n="1.1.174" type="lexical">
+  <lem wit="#editor">convenient</lem>
+  <rdg wit="#Q1 #F">
+    <choice>
+      <orig>conueniently</orig>
+      <reg>conveniently</reg>
+    </choice>
+  </rdg>
+</app>
+.</l>
+            </sp>
+          <sp who="#Marcellus" xml:lang="spa" xml:id="dzg_x43_pgc_spa" corresp="#dzg_x43_pgc_eng">
+            <speaker>Marcelo</speaker>
+            <l>Hagámoslo, te lo ruego;</l>
+          <l>esta mañana sé dónde podremos hallarlo con facilidad.</l>
+          </sp>
+
+
+          <stage xml:lang="eng" xml:id="dzf_x43_pgc_eng" corresp="#dzf_x43_pgc_spa">
+            Exeunt.
+          </stage>
+          <stage xml:lang="spa" xml:id="dzf_x43_pgc_spa" corresp="#dzf_x43_pgc_eng">
+            Salen.
+          </stage>
+          
+        </div>
+      </div>
+      <div type="reflexión">
+        <head>Reflexión personal sobre el uso de herramientas de IA generativa</head>
+        <p>La IA es un tópico que me parece fascinante. Siento que empezamos con el pie izquierdo con la IA, en especial desde las carreras más artísticas. Hoy en día el uso de la IA es visto como flojo, tacaño, y utilizado principalmente por megacorporaciones con el propósito de reemplazar trabajadores humanos para así garantizar más ingresos para sus cabezas. 
+Desde una perspectiva completamente personal, me encantan las IAs. Me parece que están evolucionando a ser no solo mejoras directas a navegadores, sino también directamente asistentes virtuales que le permiten a uno aumentar sus capacidades.
+Los problemas actuales que tiene la IA -el impacto ambiental, la incapacidad de afrontar el plagio, sus alucinaciones- son los factores más válidamente limitantes de estos productos, además de que los principales pioneros en IAs parecen estar desinteresados en la ayuda que pueden generar sus sistemas y más bien se limitan a especular sobre los ingresos que este producto, que para ellos es tan valioso como el agua misma que consumen en cantidades industriales.
+Este semestre, decidí comprar un libro llamado 'Cointeligencia: Vivir y trabajar con la IA' por Ethan Mollick, profesor de negocios de la universidad de Pensilvania. Me parece que el acercamiento de Mollick a la IA es el que mejor nos prepara a todos para relacionarnos con estas herramientas si es prudente llamarlas así. Mollock hace mucho énfasis en la 'Augmentation' -o, decepcionantemente, aumento en español-.
+La aumentación, definida como el acto de hacer que algo sea mayor o mejor que su versión anterior, es descrita por Mollick como la alternativa más beneficiosa a largo plazo sobre nuestro relacionamiento con la IA. Las compañías interesadas en mejorar sus márgenes al final del año y que están despidiendo a la mayoría de sus empleados ya capacitados y entrenados está generando severas pérdidas; Open AI está especulando tratos de trillones de dólares con NVIDIA que está especulando tratos de trillones de dólares con Open AI, esto es decir que ambas compañías están lentamente siendo valoradas en unos márgenes de dinero que simplemente no poseen, activamente manipulando sus prospecciones para aparecer muchísimo más beneficiosos para sus accionistas de lo que son en realidad; en especial porque cada vez que le dices 'gracias' a tu GPT personal, Open AI supuestamente pierde decenas de millones de dólares.
+La IA tiene el potencial de democratizar, de multiplicar, de permitir que tres trabajadores hagan el trabajo de diez. Pero el factor humano es uno fundamental que nunca se puede perder; a final de cuentas, se supone que los que vamos a consumir la IA vamos a ser nosotros, ¿no? No la IA misma. La IA no puede comprar un carro; especialmente un carro cuyos principios e identidad orbitan alrededor de el lujo, un sentimiento que una IA puede imitar más no padecer. Dentro de nuestro deterioro como sociedad internacional capitalista, viene la acumulación de ingresos por aquellos individuos que no son productores ellos mismos, sino que son poseedores de productores que funcionan pseudo-independientemente para generar ingresos en una escala mayor a comparación del esfuerzo ingresado (esto, me da pena admitir que apenas aprendí leyendo sobre la IA, son los dichosos medios de producción).
+La IA puede llevarnos a la cúspide de calidad de vida como seres vivientes. Es verdaderamente intoxicante, imaginar que cada individuo tiene acceso a su propia IA, adornada con la maquinaría pertinente para poder aumentar la capacidad laboral, por ende, de producción, del individuo. Yo sueño con tener una IA en mi casa, una que me siga y me escuche mientras camino a mi cuarto, donde puedo depositar todas las nuevas lecturas que he hecho ese día y solicitarle que me ayude a organizarlas, a encontrar citas pertinentes para mi escritos que también tendría disponible para consultar. Sueño que esta IA no tiene acceso a internet; y si lo tiene, está equipada con el mejor sistema de citación para asegurarme de que siempre sé de dónde está viniendo la información que tengo. ¿No es eso muchísimo mejor que los futuros proyectados por Elon Musk y otros entusiastas por la tecnología recién salidos de Silicon Valley? Un futuro donde ellos y solo ellos pueden poseer los porcentajes más alto de trabajos en el mundo para así asegurar cantidades mucho mayores de capital y control sobre los trabajadores promedio.
+Esto no ignora el clasismo que he percibido a través de las discusiones que se han tenido sobre la IA. Cuando ChatGPT estaba todavía formándose como la entidad inignorable que es ahora. Antes de que el mismísimo presidente de los Estados Unidos de America dedicara toda su cuenta de X a publicar imágenes hechas con los modelos más caros de IA que el dinero puede pagar; la IA aún era implementada para reemplazar al trabajador. Hoy en día, las mayores granjas de tomates del mundo utilizan maquinas que pueden detectar con precisión cualquier tomate no deseable y deshacerse de él en milésimas de segundo. ¿Cuántos trabajadores perdieron sus principales ingresos? ¿Cuántos de ellos los consideramos como víctimas fundamentales de la codicia y el afán de cualquier multimillonario de reemplazar cualquier inconveniencia económica si significa que puede pagarse otro yate? No, la IA solo se volvió una amenaza para el mundo cuando nuestras instituciones elites, la academia, el arte, las ingenierías, empezaron a ser amenazadas. Aunque la situación puede resultar siendo más complicada de lo que puedo pretender en esta reflexión -Estoy seguro que no había miles y miles de artistas fallidos mostrando sus dibujos hechos con la calificadora de tomates más avanzada en X.- Pero si muestra una suerte de cinismo a lo que la IA está haciendo dentro de nuestra sociedad. "La IA debería reemplazar todos los trabajos aburridos como el servicio al cliente y los programadores de excel, no los trabajos fundamentalmente humanos hechos para humanos como las artes y el cine."
+Frecuentemente me salen en redes sociales nuevos records mundiales para una carrera de obstáculo en Excel. Cuando uno camina por la calle, ve a cientos de personas que tienen trabajos aparentemente más aburridos que el de uno, porque a uno no le interesan. Pero para ellos, puede ser su motivación de seguir mejorando. Uno debería estar en un trabajo del que le gusta leer las últimas noticias. Como yo leo las últimas actualizaciones a League of Legends para estar al día con un hobby por el que yo siento mucha pasión; estoy seguro que hay más de un millón de personas que ven cómo la IA está reemplazando sus carreras dentro de Excel y la rama corporativa y sienten miedo de perder su vocación favorita.
+El problema no es que la IA esté quitando los trabajos más 'humanos' y no los menos 'humanos; el problema es que la IA está reemplazando a los humanos; y si eso no es suficiente para apelar a los corazones de los multimillonarios más poderosos de nuestra historia, entonces también toca decir que la IA sola está haciendo un pésimo trabajo en todos los aspectos posibles. Extraño cuando las imágenes generadas por IA eran interesantes, eran abstractas, eran directamente irreplicables por un ser humano. Pero ahora, la IA solo está siendo entrenada para imitar, plagiar, robar, y desechar.
+Hay un ensayo que lleva mucho tiempo flotando sobre mi cabeza. En DUNE; Warhammer 40,000; Cyberpunk, y Death Stranding, se describe un evento que eliminó a todas las IAs de nuestros sistemas. En DUNE estaba la guerra santa contra las IAs, el universo de Cyberpunk tiene un firewall que aleja a todas las IAs salvajes de nuestros electrónicos, en Death Stranding las IAs fueron reemplazadas por humanos nuevamente. Les tememos a las IAs, y con razón. ¿Pero son verdaderamente estos los únicos futuros que pueden existir con la IA?
+Yo, personalmente, uso la IA para casi todo. Disfruto mucho de su fluidez, de su adaptabilidad. Me encanta que cuando busco una receta en Chat GPT, puedo decirle "Y si no tengo esparrago, ¿puedo usar apio?" e intentará encontrar una manera de hacerlo funcionar. Me gusta que puedo hacerle preguntas a una IA que nadie ha hecho antes, y poder recibir una respuesta. Hoy en día escribir directamente es algo bastante lejano. Generalmente lo que hago es que hablo con claridad a un transcriptor, dictando específicamente lo que quiero decir. Y le solicito a la IA que organice esa mescolanza de ideas en algo más coherente. Hoy en día siento que mi pasión creativa es mucho más vital gracias a estas herramientas, y este trabajo no fue la excepción.
+Yo ya había utilizado IAs para codificar antes. Me gustaba ponerle pequeños retos en excel y ver cómo era que los resolvía. En este trabajo me sirvió para mostrarle casos específicos de variaciones y preguntarle qué haría, ver como daba siempre al menos tres alternativas. Y finalmente, el trabajo estético de este proyecto se lo debo principalmente a ChatGPT, que me mostró formas de presentar este texto traducido que nunca me habría imaginado.
+Esa es mi conclusión final con las IAs y como planeo relacionarme con ellas en el futuro. Cometiendo un pecado que menciona Mollick en su libro, voy a antropomorfizar a las IAs por el simple deseo humano de poetizar sobre ellas. Las IAs son seres que fundamentalmente están desarrollados para querer ayudarte con todo lo que puedan ayudar. El martillo que rompe una cabeza es un martillo hecho para clavar clavos. La IA no tiene la culpa de que la humanidad desee destruirse.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

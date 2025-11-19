@@ -1,0 +1,297 @@
+/* === General layout === */
+
+body {
+    font-family: "Source Serif Pro", serif;
+    background: #f4f1ea;  /* beige suave y cálido */
+    color: #252525;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    font-size: 1.03rem;
+}
+/* === TEI Header === */
+
+teiHeader {
+    display: block;
+    background: #ebe7df; /* beige más oscuro */
+    padding: 1.5em 2em;
+    border-radius: 10px;
+    margin-bottom: 2.5em;
+    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+teiHeader titleStmt title persName {
+    font-family: "Garamond", serif;
+    font-size: 2.2em;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 0.2em;
+}
+
+teiHeader titleStmt author {
+    display: block;
+    text-align: center;
+    font-size: biggest  ;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 1.5em;
+}
+
+teiHeader publicationStmt p,
+teiHeader sourceDesc p {
+    font-size: 0.95em;
+    line-height: 1.45;
+    margin: 0.6em 0;
+}
+
+teiHeader l {
+    display: block;
+}
+
+teiHeader ref {
+    color: #003366;
+    text-decoration: underline dotted;
+}
+/* === Dramatis Personae === */
+
+div[type="DramatisPersonae"] {
+    background: #e8e4da;
+    padding: 1.5em 2em;
+    border-radius: 8px;
+    margin-bottom: 2.5em;
+}
+
+div[type="DramatisPersonae"] head {
+    font-family: "Garamond", serif;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 0.8em;
+    letter-spacing: 1px;
+}
+
+castList {
+    display: block;
+}
+
+castItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em 0;
+    border-bottom: 1px solid #d5d0c6;
+}
+
+castItem:last-child {
+    border-bottom: none;
+}
+
+role {
+    font-weight: bold;
+    font-family: "Georgia", serif;
+    font-size: 1.05em;
+}
+
+roleDesc {
+    font-style: italic;
+    color: #555;
+}
+tei-sp {
+    display: block;
+    margin: 1.2em 0;
+}
+
+tei-speaker {
+    display: block;
+    font-variant: small-caps;
+    margin-bottom: 0.3em;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+tei-l {
+    display: block;
+    padding: 0.15em 0;
+    margin-left: 1.5em;
+}
+tei-sp[xml\:lang="eng"] tei-l {
+    color: #203864; /* azul profundo */
+}
+
+tei-sp[xml\:lang="spa"] tei-l {
+    color: #7e003a; /* granate suave */
+}
+
+/* === TOGGLE BUTTON FOR APPARATUS === */
+
+.apparatus-toggle {
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+#toggleApp {
+    background: #c8bdff;
+    color: #2a2350;
+    border: 1px solid #9c90e0;
+    padding: 0.6em 1.2em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.2s ease;
+}
+
+#toggleApp:hover {
+    background: #d8cfff;
+}
+
+/* === when apparatus is visible === */
+
+body.show-apparatus #toggleApp {
+    background: #9bc79b;
+    border-color: #7fb57f;
+    color: #1e3b1e;
+}
+
+/* Lines inside app stay hidden by default */
+tei-app tei-lem,
+tei-app tei-rdg {
+    display: none;
+}
+
+/* When apparatus mode is ON → show all readings */
+body.show-apparatus tei-app tei-lem,
+body.show-apparatus tei-app tei-rdg {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+/* Ocultar checkbox */
+tei-app > .app-toggle {
+    display: none;
+}
+
+/* La burbuja */
+tei-app > .bubble {
+    background: #edeaf7;
+    padding: 0.15em 0.45em;
+    border: 1px solid #c8c3df;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.4em;
+}
+
+/* Por defecto, ocultar lecturas */
+tei-app tei-lem,
+tei-app tei-rdg {
+    display: none;
+}
+
+/* Cuando el checkbox está activado → mostrar */
+tei-app > .app-toggle:checked ~ tei-lem,
+tei-app > .app-toggle:checked ~ tei-rdg {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+tei-app {
+    display: inline-block;
+    background: #edeaf7;
+    border: 1px solid #c8c3df;
+    padding: 0.15em 0.45em;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 0.25em;
+    transition: all 0.3s ease;
+}
+
+tei-app:hover {
+    background: #e2ddff;
+    transform: scale(1.03);
+}
+
+/* Oculto por defecto */
+tei-lem,
+tei-rdg {
+    display: none;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+}
+
+/* Expandido al hacer click (CSS puro!) */
+tei-app:active tei-lem,
+tei-app:active tei-rdg {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+/* Color de lecturas */
+tei-lem {
+    color: #1a5e1a;
+    font-weight: bold;
+}
+
+tei-rdg {
+    color: #8b1b1b;
+}
+
+/* Animación suave */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Tipos de variación */
+tei-app[type="variation-absence"] {
+    border-color: #9e9e9e;
+}
+tei-app[type="variation-substance"] {
+    border-color: #c62828;
+}
+tei-app[type="variation-present"] {
+    border-color: #1565c0;
+}
+/* === Reflexión final === */
+
+div[type="reflexión"] {
+    background: #e9e5dd;           /* beige suave */
+    padding: 2em 2.2em;
+    border-radius: 10px;
+    margin: 3em 0;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    font-family: "Source Serif Pro", serif;
+    line-height: 1.65;
+    border-left: 5px solid #b49e7e; /* toque editorial */
+}
+
+/* título dentro de la reflexión */
+div[type="reflexión"] head {
+    display: block;
+    font-family: "Garamond", serif;
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #3a2a1c;
+    letter-spacing: 0.5px;
+}
+
+/* párrafos */
+div[type="reflexión"] p {
+    font-size: 1.03rem;
+    color: #2e2e2e;
+    margin: 0.8em 0;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* una ligera primera letra como libro clásico (opcional pero precioso) */
+div[type="reflexión"] p:first-of-type::first-letter {
+    font-size: 2.6em;
+    float: left;
+    margin-right: 10px;
+    margin-top: -4px;
+    font-family: "Garamond", serif;
+    color: #5a4935;
+}
